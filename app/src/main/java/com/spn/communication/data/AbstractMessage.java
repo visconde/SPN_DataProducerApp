@@ -6,12 +6,12 @@ import java.util.UUID;
 /**
  * Created by pedrocosta on 24/05/16.
  */
-public abstract  class AbstractSPNDataObject {
+public abstract  class AbstractMessage {
 
     private UUID id;
     private Long timestamp;
 
-public AbstractSPNDataObject(){
+public AbstractMessage(){
 
     id = UUID.randomUUID();
    timestamp = System.currentTimeMillis();

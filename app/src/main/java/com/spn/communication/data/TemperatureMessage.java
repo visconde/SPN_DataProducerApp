@@ -3,12 +3,12 @@ package com.spn.communication.data;
 /**
  * Created by pedrocosta on 24/05/16.
  */
-public class TemperatureSPNDataObject extends AbstractSPNDataObject {
+public class TemperatureMessage extends AbstractMessage {
 
 
     private Integer temperature;
 
-    public TemperatureSPNDataObject(){
+    public TemperatureMessage(){
         super();
 
     }
